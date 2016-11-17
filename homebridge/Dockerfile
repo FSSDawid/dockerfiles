@@ -26,28 +26,19 @@ RUN apt-get update && \
     g++ \
     libavahi-compat-libdnssd-dev \
     libkrb5-dev \
-    vim \
-    net-tools \
-    nano
+    net-tools 
 
 ##################################################
 # Install homebridge                             #
 ##################################################
 
 RUN npm install -g homebridge \
-    homebridge-philipshue \
+    homebridge-openhab \
     homebridge-ninjablock-temperature \
     homebridge-ninjablock-humidity \
     homebridge-ninjablock-alarmstatedevice \
-    homebridge-luxtronik2 \
     homebridge-people \
-    homebridge-mqttswitch \
-    homebridge-edomoticz \
-    homebridge-philipshue \
-    homebridge-liftmaster \
-    homebridge-ifttt \
-    homebridge-nest \
-    homebridge-wink --unsafe-perm
+    homebridge-ifttt --unsafe-perm
 
 ##################################################
 # Start                                          #
