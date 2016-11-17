@@ -1,2 +1,2 @@
 FROM python:2-onbuild
-CMD [ "python", "./Modbus2MQTT.py" ]
+CMD [ "python", "-u", "./Modbus2MQTT.py" ]
