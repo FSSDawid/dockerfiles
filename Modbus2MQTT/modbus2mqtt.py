@@ -11,7 +11,6 @@ __author__ = 'dkubosze'
 MBD = {}
 WREG = {}
 
-
 def createEmptyInstance():
     dic = {}
     dic['TKol'] = -12345
