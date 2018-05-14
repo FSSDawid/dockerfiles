@@ -16,7 +16,7 @@ ADD . /app
 
 # Using pip:
 RUN python3 -m pip install -r requirements.txt
-CMD ["python3", "-u", "modbus2mqtt.py"]
+CMD ["python3", "-u","-m", "modbus2mqtt.py"]
 
 # Using pipenv:
 #RUN python3 -m pip install pipenv
