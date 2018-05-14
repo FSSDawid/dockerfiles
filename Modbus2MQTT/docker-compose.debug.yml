@@ -1,0 +1,9 @@
+version: '2.1'
+
+services:
+  modbus2mqtt:
+    image: modbus2mqtt
+    build:
+      context: .
+      dockerfile: Dockerfile
+
